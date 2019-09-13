@@ -6,19 +6,19 @@ const Contact = (props) => (
             <section>
                 <form method="post" action="#">
                     <div className="field half first">
-                        <label htmlFor="name">Name</label>
+                        <label htmlFor="name">Ваше имя</label>
                         <input type="text" name="name" id="name" />
                     </div>
                     <div className="field half">
-                        <label htmlFor="email">Email</label>
+                        <label htmlFor="email">Ваш Email</label>
                         <input type="text" name="email" id="email" />
                     </div>
                     <div className="field">
-                        <label htmlFor="message">Message</label>
+                        <label htmlFor="message">Сообщение</label>
                         <textarea name="message" id="message" rows="6"></textarea>
                     </div>
                     <ul className="actions">
-                        <li><input type="submit" value="Send Message" className="special" /></li>
+                        <li><input type="submit" value="Отправить" className="special" /></li>
                         <li><input type="reset" value="Clear" /></li>
                     </ul>
                 </form>
@@ -28,23 +28,26 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-envelope"></span>
                         <h3>Email</h3>
-                        <a href="#">information@untitled.tld</a>
+                        <a href="#">alexandraudit@tut.by</a>
                     </div>
                 </section>
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-phone"></span>
-                        <h3>Phone</h3>
-                        <span>(000) 000-0000 x12387</span>
+                        <h3>Телефоны</h3>
+                        <span>+ 375 (25) 762-57-61<br /></span>
+                        <span>+ 375 (17) 377-48-26<br /></span>
+                        <span>+ 375 (17) 377-43-34</span>
+                      
                     </div>
                 </section>
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
-                        <h3>Address</h3>
-                        <span>1234 Somewhere Road #5432<br />
-                        Nashville, TN 00000<br />
-                        United States of America</span>
+                        <h3>Адрес</h3>
+                        <span>г. Минск, ул.Куприянова<br />
+                        д.1а, к.311<br />
+                        УНП 100923384</span>
                     </div>
                 </section>
             </section>
