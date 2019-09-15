@@ -17,10 +17,10 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="Gatsby Starter - Forty"
+                    title='ЗАО "Александраудит" - бухгалтерская поддержка бизнеса'
                     meta={[
-                        { name: 'description', content: 'Sample' },
-                        { name: 'keywords', content: 'sample, something' },
+                        { name: 'description', content: ' Мы осуществляеи бухгалтерскую и налоговую поддержку белорусских и зарубежных предприятий' },
+                        { name: 'keywords', content: 'Аудиит, бухгалтерские услуги' },
                     ]}
                 >
                 </Helmet>
@@ -32,7 +32,7 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
                                 <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <p>Предоставьте ведение бухгалтерского учета Вашей компании опытным профессионалам.</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>

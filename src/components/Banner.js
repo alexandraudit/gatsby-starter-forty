@@ -7,7 +7,7 @@ const Banner = (props) => (
                 <h1>ЗАО "АЛЕКСАНДРАУДИТ"</h1>
             </header>
             <div className="content">
-                <p>Доверьтесь профессионалам</p>
+                <p>Придайте уверенность бизнесу</p>
                 <ul className="actions">
                     <li><a href="#one" className="button next scrolly">Подробнее</a></li>
                 </ul>

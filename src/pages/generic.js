@@ -15,56 +15,57 @@ const Generic = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h1>Generic</h1>
+                        <h1>Цены на бухгалтерские услуги</h1>
                     </header>
-                    <span className="image main"><img src={pic11} alt="" /></span>
-                    <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-                    <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
-                    <h4>Alternate</h4>
+                    
                     <div className="table-wrapper">
                         <table className="alt">
                             <thead>
                                 <tr>
-                                    <th>Name</th>
-                                    <th>Description</th>
-                                    <th>Price</th>
+                                    <th>Вид деятельности / Юрлицо</th>
+                                    <th>Упрощенная система налогообложения<br/> с НДС / без НДС</th>
+                                    <th>Общая система налогообложения</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Item1</td>
-                                    <td>Ante turpis integer aliquet porttitor.</td>
-                                    <td>29.99</td>
+                                    <td>Вновь созданные предприятия на время организационного периода</td>
+                                    <td>50 / 50</td>
+                                    <td>50</td>
                                 </tr>
                                 <tr>
-                                    <td>Item2</td>
+                                    <td>Индивидуальные предприниматели	</td>
                                     <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                                    <td>19.99</td>
+                                    <td>от 100</td>
                                 </tr>
                                 <tr>
-                                    <td>Item3</td>
+                                    <td>Юридические лица</td>
                                     <td> Morbi faucibus arcu accumsan lorem.</td>
-                                    <td>29.99</td>
+                                    <td>от 250</td>
                                 </tr>
                                 <tr>
-                                    <td>Item4</td>
+                                    <td>Восстановление бухгалтерского учета (за месяц)</td>
                                     <td>Vitae integer tempus condimentum.</td>
-                                    <td>19.99</td>
-                                </tr>
-                                <tr>
-                                    <td>Item5</td>
-                                    <td>Ante turpis integer aliquet porttitor.</td>
-                                    <td>29.99</td>
+                                    <td>от 150</td>
                                 </tr>
                             </tbody>
-                            <tfoot>
-                                <tr>
-                                    <td colSpan="2"></td>
-                                    <td>100.00</td>
-                                </tr>
-                            </tfoot>
+         
                         </table>
+
+                        <h4>В стоимость услуг входит:</h4>
+                        <ul>
+                            <li>Ведение бухгалтерского учета в программе 1С на основании предоставленных Заказчиком первичных учетных документов;</li>
+                            <li>Расчет заработной платы (в т.ч. отпускных, больничных) и ведение персонифицированного учета    </li>
+                            <li>Составление и сдача отчетности в ИМНС, ФСЗН, Белгосстрах и органы статистики</li>
+                            <li>Базовый кадровый учет</li>
+                            <li>Составление годовой отчетности</li>
+                            <li>Консультации по текущей деятельности</li>
+
+                        </ul>
+
+                        <blockquote>Цены приведены в USD<br/><br/>Мы с пониманием относимся к каждому клиенту и имеем лояльную систему ценообразования.<br/>  Стоимость бухгалтерских услуг в каждом случае определяется индивидуально</blockquote>
+                        <span className="image main"><img src={pic11} alt="" /></span>
+
                     </div>
                 </div>
                 
