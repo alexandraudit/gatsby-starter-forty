@@ -68,7 +68,9 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Sed nunc ligula</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>С 1995 года наша компания осуществляет бухгалтерскую и налоговую поддержку белорусских и зарубежных предприятий.
+Есть, мнение, что для ведения бухгалтерского учета малых предприятий и индивидуальных предпринимателей, не требуется особых навыков, однако, это не соответствует истине.
+Без опыта и знаний можно придти к отрицательному результату.</p>
                             <ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
                             </ul>
