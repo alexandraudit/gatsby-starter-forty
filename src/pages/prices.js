@@ -1,6 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
+import BannerPrices from '../components/BannerPrices'
 
 import pic11 from '../assets/images/pic11.jpg'
 
@@ -10,14 +11,11 @@ const Generic = (props) => (
             <title>Generic - Forty by HTML5 UP</title>
             <meta name="description" content="Generic Page" />
         </Helmet>
-
+        <BannerPrices />
         <div id="main" className="alt">
             <section id="one">
                 <div className="inner">
-                    <header className="major">
-                        <h1>Цены на бухгалтерские услуги</h1>
-                    </header>
-                    
+                  
                     <div className="table-wrapper">
                         <table className="alt">
                             <thead>
@@ -35,17 +33,17 @@ const Generic = (props) => (
                                 </tr>
                                 <tr>
                                     <td>Индивидуальные предприниматели	</td>
-                                    <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                                    <td>от 150</td>
                                     <td>от 100</td>
                                 </tr>
                                 <tr>
                                     <td>Юридические лица</td>
-                                    <td> Morbi faucibus arcu accumsan lorem.</td>
+                                    <td>от 150</td>
                                     <td>от 250</td>
                                 </tr>
                                 <tr>
                                     <td>Восстановление бухгалтерского учета (за месяц)</td>
-                                    <td>Vitae integer tempus condimentum.</td>
+                                    <td>от 150</td>
                                     <td>от 150</td>
                                 </tr>
                             </tbody>
@@ -63,8 +61,7 @@ const Generic = (props) => (
 
                         </ul>
 
-                        <blockquote>Цены приведены в USD<br/><br/>Мы с пониманием относимся к каждому клиенту и имеем лояльную систему ценообразования.<br/>  Стоимость бухгалтерских услуг в каждом случае определяется индивидуально</blockquote>
-                        <span className="image main"><img src={pic11} alt="" /></span>
+                        <blockquote>Цены приведены в USD</blockquote>
 
                     </div>
                 </div>

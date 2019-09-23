@@ -15,7 +15,7 @@ const Team = (props) => (
     <section id="team" className="major">
         <div className="inner">
             <header className="major">
-                <h1>Команда У</h1>
+                <h1>Наши специалисты</h1>
             </header>
                 <div className="box alt">
                     <div className="grid-wrapper">

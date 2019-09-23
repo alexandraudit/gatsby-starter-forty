@@ -7,7 +7,6 @@ import Menu from './Menu'
 import Contact from './Contact'
 import Footer from './Footer'
 import Team from './Team'
-import LeafletMap from'./LeafletMap' 
 
 class Layout extends React.Component {
     constructor(props) {
@@ -47,7 +46,6 @@ class Layout extends React.Component {
                     {children}
                     <Team />
                     <Contact />
-                    <LeafletMap />
                     <Footer />
                 </div>
                 <Menu onToggleMenu={this.handleToggleMenu} />

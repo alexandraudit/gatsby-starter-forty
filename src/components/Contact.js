@@ -4,7 +4,7 @@ const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section>
-                <form method="post" action="#">
+                <form method="post"  name="alaudit-contact" data-netlify="true">
                     <div className="field half first">
                         <label htmlFor="name">Ваше имя</label>
                         <input type="text" name="name" id="name" />
