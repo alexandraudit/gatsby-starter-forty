@@ -7,7 +7,7 @@ const Footer = (props) => (
                 <li><a href="#" className="icon alt fa-facebook"><span className="label">Facebook</span></a></li>
             </ul>
             <ul className="copyright">
-                <li>&copy; Copyright 2019 ЗАО "Александраудит"</li><li>Design: <a href="#"></a>DSVR</li>
+                <li>&copy; Copyright 2019 ЗАО "Александраудит"</li><li>Design based on HTML5 UP Gatsby Starter: <a href="https://html5up.net/"></a>DSVR</li>
             </ul>
         </div>
     </footer>

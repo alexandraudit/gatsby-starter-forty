@@ -19,7 +19,7 @@ const Contact = (props) => (
                     </div>
                     <ul className="actions">
                         <li><input type="submit" value="Отправить" className="special" /></li>
-                        <li><input type="reset" value="Clear" /></li>
+                        <button type="submit" value="Отправить" className="special">Отправитьg</button>
                     </ul>
                 </form>
             </section>
@@ -45,8 +45,7 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
                         <h3>Адрес</h3>
-                        <span>г. Минск, ул.Куприянова<br />
-                        д.1а, к.311<br />
+                        <span>г. Минск, ул.Куприянова д.1а, к.311<br />
                         УНП 100923384</span>
                     </div>
                 </section>
