@@ -1,9 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import BannerPrices from '../components/BannerPrices'
-
-import pic11 from '../assets/images/pic11.jpg'
+import BannerPrices from '../components/Banners/BannerPrices'
 
 const Generic = (props) => (
     <Layout>

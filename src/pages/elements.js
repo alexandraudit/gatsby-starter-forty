@@ -7,7 +7,7 @@ import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 
-const Services = (props) => (
+const Elements = (props) => (
     <Layout>
         <Helmet>
             <title>Elements - Forty by HTML5 UP</title>
@@ -419,4 +419,4 @@ const Services = (props) => (
     </Layout>
 )
 
-export default Services
+export default Elements

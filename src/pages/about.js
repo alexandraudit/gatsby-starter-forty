@@ -2,17 +2,20 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import BannerLanding from '../components/BannerLanding'
+import BannerLanding from '../components/Banners/BannerLanding'
 import Advantages from '../components/Advantages'
 
-import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
-import pic10 from '../assets/images/pic10.jpg'
+import pic01 from '../assets/images/pic01.jpg'
+import pic02 from '../assets/images/pic02.jpg'
+import pic03 from '../assets/images/pic03.jpg'
+import pic04 from '../assets/images/pic04.jpg'
+import pic05 from '../assets/images/pic05.jpg'
+import pic06 from '../assets/images/pic06.jpg'
 
 const Landing = (props) => (
     <Layout>
         <Helmet>
-            <title>Landing - Forty by HTML5 UP</title>
+            <title>ЗАО "АЛЕКСАНДРАУДИТ"</title>
             <meta name="description" content="Landing Page" />
         </Helmet>
 
@@ -22,66 +25,99 @@ const Landing = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h2>Sed amet aliquam</h2>
+                        <h2>Преимущества работы с нами</h2>
                     </header>
                     
-                    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+                    <p>С 1995 года наша компания осуществляет бухгалтерскую и налоговую поддержку белорусских и зарубежных предприятий.
+Есть, мнение, что для ведения бухгалтерского учета малых предприятий и индивидуальных предпринимателей, не требуется особых навыков, однако, это не соответствует истине.
+Без опыта и знаний можно придти к отрицательному результату.</p>
                 </div>
             </section>
             <section id="two" className="spotlights">
                 <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic08} alt="" />
-                    </Link>
+                    <div className="image">
+                        <img src={pic01} alt="" />
+                    </div>    
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Orci maecenas</h3>
+                                <h3>ДОСТУПНОСТЬ</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
-                            </ul>
+                            <p>Опыт и знания наших специалистов позволяют уверенно вести Ваш бизнес.</p>
+
                         </div>
                     </div>
                 </section>
                 <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic09} alt="" />
-                    </Link>
+                    <div className="image">
+                        <img src={pic02} alt="" />
+                    </div>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Rhoncus magna</h3>
+                                <h3>КОМПЕТЕНТНОСТЬ</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
-                            </ul>
+                            <p>Наши услуги будут стоить дешевле оплаты собственного главного бухгалтера, но будут превосходить по качеству и уровню работы.</p>
                         </div>
                     </div>
                 </section>
                 <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic10} alt="" />
-                    </Link>
+                    <div className="image">
+                        <img src={pic03} alt="" />
+                    </div>    
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Sed nunc ligula</h3>
+                                <h3>КОМАНДА</h3>
                             </header>
-                            <p>С 1995 года наша компания осуществляет бухгалтерскую и налоговую поддержку белорусских и зарубежных предприятий.
-Есть, мнение, что для ведения бухгалтерского учета малых предприятий и индивидуальных предпринимателей, не требуется особых навыков, однако, это не соответствует истине.
-Без опыта и знаний можно придти к отрицательному результату.</p>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
-                            </ul>
+                            <p>Мы всегда на связи любым удобным способом, Вы можете обратится к нам неограниченное количество раз и наши бухгалтера на понятном языке ответят на все вопросы.</p>
+
                         </div>
                     </div>
                 </section>
+                <section>
+                    <div className="image">
+                        <img src={pic04} alt="" />
+                    </div>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>БЕЗ БЮРОКРАТИИ</h3>
+                            </header>
+                            <p>Мы минимизируем ваши контакты с государственными органами.</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div className="image">
+                        <img src={pic05} alt="" />
+                    </div>    
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>СТРАХОВКА</h3>
+                            </header>
+                            <p>Наши услуги застрахованы</p>
+
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div className="image">
+                        <img src={pic06} alt="" />
+                    </div>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>ПАРТНЕРЫ</h3>
+                            </header>
+                            <p>Не только мы, но и наши партнеры (аудиторы, юристы) при необходимости придут на помощь.</p>
+                        </div>
+                    </div>
+                </section>
+   
             </section>
         </div>
-        <Advantages />
 
     </Layout>
 )

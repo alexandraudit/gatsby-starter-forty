@@ -15,8 +15,10 @@ const Team = (props) => (
     <section id="team" className="major">
         <div className="inner">
             <header className="major">
-                <h1>Наши специалисты</h1>
-            </header>
+                <h2>Наши специалисты</h2>            <p>Предоставьте ведение бухгалтерского учета Вашей компании опытным профессионалам. </p>
+
+            </header>                
+        
                 <div className="box alt">
                     <div className="grid-wrapper">
                              <div className="col-3">                                
