@@ -15,7 +15,8 @@ const Team = (props) => (
     <section id="team" className="major">
         <div className="inner">
             <header className="major">
-                <h2>Наши специалисты</h2>            <p>Предоставьте ведение бухгалтерского учета Вашей компании опытным профессионалам. </p>
+                <h2>Наши специалисты</h2>            
+                <p>Предоставьте ведение бухгалтерского учета Вашей компании опытным профессионалам. </p>
 
             </header>                
         
@@ -23,50 +24,50 @@ const Team = (props) => (
                     <div className="grid-wrapper">
                              <div className="col-3">                                
                                 <span className="image fit"><img src={girl1} alt="" /></span>
-                                <strong>Heading Level 2</strong>
-                                <p>Nunc lacinia ante nunc ac lob.</p>
+                                <strong>Боровик Татьяна</strong>
+                                <p>Директор</p>
                                 <hr />
                             </div>
                             <div className="col-3">                                
                                 <span className="image fit"><img src={girl2} alt="" /></span>
-                                <strong>Heading Level 2</strong>
-                                <p>Nunc lacinia ante nunc ac lob.</p>
+                                <strong>Семеняко Ольга</strong>
+                                <p>Главный бухгалтер</p>
                                 <hr />
                             </div>
                             <div className="col-3">                                
                                 <span className="image fit"><img src={girl3} alt="" /></span>
-                                <strong>Heading Level 2</strong>
-                                <p>Nunc lacinia ante nunc ac lob.</p>
+                                <strong>Боброва Юлия</strong>
+                                <p>Ведущий бухгалтер</p>
                                 <hr />
                             </div>
                             <div className="col-3">                                
                                 <span className="image fit"><img src={girl4} alt="" /></span>
-                                <strong>Heading Level 2</strong>
-                                <p>Nunc lacinia ante nunc ac lob.</p>
+                                <strong>Чикун Марина</strong>
+                                <p>Ведущий бухгалтер</p>
                                 <hr />
                             </div>
                             <div className="col-3">                                
                                 <span className="image fit"><img src={girl5} alt="" /></span>
-                                <strong>Heading Level 2</strong>
-                                <p>Nunc lacinia ante nunc ac lob.</p>
-                                <hr />
-                            </div>
-                            <div className="col-3">                                
-                                <span className="image fit"><img src={girl6} alt="" /></span>
-                                <strong>Heading Level 2</strong>
-                                <p>Nunc lacinia ante nunc ac lob.</p>
-                                <hr />
-                            </div>
-                            <div className="col-3">                                
-                                <span className="image fit"><img src={girl7} alt="" /></span>
-                                <strong>Heading Level 2</strong>
-                                <p>Nunc lacinia ante nunc ac lob.</p>
+                                <strong>Макеева Каролина</strong>
+                                <p>Ведущий бухгалтер</p>
                                 <hr />
                             </div>
                             <div className="col-3">                                
                                 <span className="image fit"><img src={girl8} alt="" /></span>
-                                <strong>Heading Level 2</strong>
-                                <p>Nunc lacinia ante nunc ac lob.</p>
+                                <strong>Рожнева Наталья</strong>
+                                <p>Ведущий бухгалтер</p>
+                                <hr />
+                            </div>
+                            <div className="col-3">                                
+                                <span className="image fit"><img src={girl6} alt="" /></span>
+                                <strong>Леонова Мария</strong>
+                                <p>Ведущий бухгалтер</p>
+                                <hr />
+                            </div>
+                            <div className="col-3">                                
+                                <span className="image fit"><img src={girl7} alt="" /></span>
+                                <strong>Шахнович Екатерина</strong>
+                                <p>Стажер</p>
                                 <hr />
                             </div>                                                       
                     </div>

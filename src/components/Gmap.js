@@ -11,7 +11,7 @@ const defaultProps = {
 
 const markerStyle = {
     color: 'black',
-    fontSize: '24 px',
+    fontSize: '18px',
 }
 
 const AnyReactComponent = ({ text }) => <div style={markerStyle}>{text}</div>
@@ -27,7 +27,7 @@ const Gmap = () => (
       <AnyReactComponent 
         lat={53.899063}
         lng={27.524973}
-        text={'ЗАО Александраудит'}
+        text={'ЗАО "Александраудит", ул.Куприянова 1а'}
       />
     </GoogleMapReact>
   </div>

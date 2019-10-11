@@ -31,52 +31,52 @@ class HomeIndex extends React.Component {
                 <section id="two">
                         <div className="inner">
                             <header className="major">
-                                <h2>NТекст с вступлением</h2>
+                                <h2>Работаем на результат</h2>
                             </header>
-                            <p>Предоставьте ведение бухгалтерского учета Вашей компании опытным профессионалам. </p>
+                            <p>Приоритет нашей работы заключается в том, чтобы, сконцентрировавшись на потребностях клиента, обеспечить практический, творческий и коммерческий подход к оказанию услуг</p>
                       
                         </div>
                     </section>
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic07})`}}>
                             <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Предоставьте ведение бухгалтерского учета Вашей компании опытным профессионалам.</p>
+                                <h3>Ведение бухгалтерского и налогового учета</h3>
+                                <p>Включает обработку первичной учетной документации. Непосредственно ведение учета в 1С. Формирование финансового результата.</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="#" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic08})`}}>
                             <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
+                                <h3>Постановка бухгалтерского и налогового учета</h3>
+                                <p>Подберем подходящую для вас систему бухгалтерского учета, поможем наладить документооборот. </p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="#" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic09})`}}>
                             <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
+                                <h3>Составление и подача бухгалтерской, налоговой и статистической отчетности</h3>
+                                <p>При необходимости подготовим не только необходимую в соответствии с законодательством отчетность, но и индивидуальную отчетность для учредителей.</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="#" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic10})`}}>
                             <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
+                                <h3>Консультирование по бухгалтерскому и налоговому учету</h3>
+                                <p>Если у Вас есть вопросы, мы ответим на простом и понятном языке.</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="#" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic11})`}}>
                             <header className="major">
-                                <h3>Consequat</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Восстановление бухгалтерского учета</h3>
+                                <p>Утеряли документы, подвел бухгалтер? Мы поможем восстановить бухгалтерский учет.</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="#" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic12})`}}>
                             <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
+                                <h3>Кадровый учет</h3>
+                                <p>Включает в себя оформление и ведение личных дел, трудовых контрактов.</p>
                             </header>
                         </article>
                     </section>

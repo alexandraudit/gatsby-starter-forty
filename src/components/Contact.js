@@ -4,7 +4,8 @@ const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section>
-                <form method="post"  name="alaudit-contact" data-netlify="true">
+                <form method="POST"  name="alaudit-contact" data-netlify="true">
+                    <input type="hidden" name="form-name" value="alaudit-contact" />
                     <div className="field half first">
                         <label htmlFor="name">Ваше имя</label>
                         <input type="text" name="name" id="name" />
@@ -18,8 +19,7 @@ const Contact = (props) => (
                         <textarea name="message" id="message" rows="6"></textarea>
                     </div>
                     <ul className="actions">
-                        <li><input type="submit" value="Отправить" className="special" /></li>
-                        <button type="submit" value="Отправить" className="special">Отправитьg</button>
+                        <button type="submit" value="Отправить" className="special">Отправить</button>
                     </ul>
                 </form>
             </section>
@@ -45,7 +45,7 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
                         <h3>Адрес</h3>
-                        <span>г. Минск, ул.Куприянова д.1а, к.311<br />
+                        <span>г. Минск, ул.Куприянова 1а, к.311<br />
                         УНП 100923384</span>
                     </div>
                 </section>

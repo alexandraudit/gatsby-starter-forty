@@ -3,14 +3,13 @@ import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/Banners/BannerLanding'
-import Advantages from '../components/Advantages'
 
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
-import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
+import pic01 from '../assets/images/pic01.png'
+import pic02 from '../assets/images/pic02.png'
+import pic03 from '../assets/images/pic03.png'
+import pic04 from '../assets/images/pic04.png'
+import pic05 from '../assets/images/pic05.png'
+import pic06 from '../assets/images/pic06.png'
 
 const Landing = (props) => (
     <Layout>
@@ -41,12 +40,13 @@ const Landing = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>ДОСТУПНОСТЬ</h3>
+                                <h3>Доступность</h3>
                             </header>
                             <p>Опыт и знания наших специалистов позволяют уверенно вести Ваш бизнес.</p>
 
                         </div>
                     </div>
+
                 </section>
                 <section>
                     <div className="image">
@@ -55,7 +55,7 @@ const Landing = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>КОМПЕТЕНТНОСТЬ</h3>
+                                <h3>Компетентность</h3>
                             </header>
                             <p>Наши услуги будут стоить дешевле оплаты собственного главного бухгалтера, но будут превосходить по качеству и уровню работы.</p>
                         </div>
@@ -68,7 +68,7 @@ const Landing = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>КОМАНДА</h3>
+                                <h3>Команда</h3>
                             </header>
                             <p>Мы всегда на связи любым удобным способом, Вы можете обратится к нам неограниченное количество раз и наши бухгалтера на понятном языке ответят на все вопросы.</p>
 
@@ -82,7 +82,7 @@ const Landing = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>БЕЗ БЮРОКРАТИИ</h3>
+                                <h3>Без бюрократии</h3>
                             </header>
                             <p>Мы минимизируем ваши контакты с государственными органами.</p>
                         </div>
@@ -95,7 +95,7 @@ const Landing = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>СТРАХОВКА</h3>
+                                <h3>Страховка</h3>
                             </header>
                             <p>Наши услуги застрахованы</p>
 
@@ -109,7 +109,7 @@ const Landing = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>ПАРТНЕРЫ</h3>
+                                <h3>Партнеры</h3>
                             </header>
                             <p>Не только мы, но и наши партнеры (аудиторы, юристы) при необходимости придут на помощь.</p>
                         </div>
