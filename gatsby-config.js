@@ -22,7 +22,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-149459898-1",
+        trackingId: "UA-144919197-1",
         // Defines where to place the tracking script - `true` in the head and `false` in the body
         head: false,
         // Setting this parameter is optional
@@ -39,7 +39,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
-        id: "GTM-TGVWSR7",
+        id: "GTM-53RGQ7C",
   
         // Include GTM in development.
         // Defaults to false meaning GTM will only be loaded in production.
