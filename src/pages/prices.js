@@ -6,8 +6,8 @@ import BannerPrices from '../components/Banners/BannerPrices'
 const Generic = (props) => (
     <Layout>
         <Helmet>
-            <title>Generic - Forty by HTML5 UP</title>
-            <meta name="description" content="Generic Page" />
+            <title>ЗАО "Александраудит" - цены на бухгалтерские услуги в Минске</title>
+            <meta name="description" content="Сколько стоит бухгалтер для фирмы?" />
         </Helmet>
         <BannerPrices />
         <div id="main" className="alt">
