@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerPrices from '../components/Banners/BannerPrices'
 
-const Generic = (props) => (
+const Prices = (props) => (
     <Layout>
         <Helmet>
             <title>ЗАО "Александраудит" - цены на бухгалтерские услуги в Минске</title>
@@ -71,4 +71,4 @@ const Generic = (props) => (
     </Layout>
 )
 
-export default Generic
+export default Prices
